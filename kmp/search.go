@@ -1,31 +1,31 @@
 package kmp
 
-func Search(buffer, pattern []byte) (occurrence int) {
+func Search(buffer, pattern []byte) (position int) {
 	var table = Table{}
-	var idxBuffer, lenOccPattern int
+	var idxBuffer, idxPattern int
 	var lenBuffer = len(buffer)
 	var lenPattern = len(pattern)
 
-	occurrence = -1
+	position = -1
 	table.Build(pattern)
 	for idxBuffer < lenBuffer {
-		if buffer[idxBuffer] == pattern[lenOccPattern] {
+		if buffer[idxBuffer] == pattern[idxPattern] {
 			idxBuffer += 1
-			lenOccPattern += 1
+			idxPattern += 1
 
-			if lenOccPattern == lenPattern {
-				occurrence = idxBuffer - lenOccPattern
+			if idxPattern == lenPattern {
+				position = idxBuffer - idxPattern
 				break
 			}
 		} else {
-			lenOccPattern = table.Content[lenOccPattern]
+			idxPattern = table.Content[idxPattern]
 
-			if lenOccPattern < 0 {
+			if idxPattern < 0 {
 				idxBuffer += 1
-				lenOccPattern += 1
+				idxPattern += 1
 			}
 		}
 	}
 
-	return occurrence
+	return position
 }
