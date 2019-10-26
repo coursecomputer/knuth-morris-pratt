@@ -1,4 +1,4 @@
-# Knuth-Morris-Pratt-Algorithm
+# knuth-morris-pratt
 Implementation of the Knuth-Morris-Pratt algorithm or KMP algorithm in GO
 
 ## Technology
@@ -13,7 +13,7 @@ CLI:
 
 CODE:
 ```go
-import "github.com/AlgoCafe/Knuth-Morris-Pratt-Algorithm/kmp"
+import "github.com/AlgoCafe/knuth-morris-pratt/kmp"
 
 var index, length int
 var buffer = []byte("abc abcdab abcdabcdabde")

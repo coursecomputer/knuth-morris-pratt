@@ -1,4 +1,4 @@
-module github.com/AlgoCafe/Knuth-Morris-Pratt-Algorithm
+module github.com/AlgoCafe/knuth-morris-pratt
 
 go 1.13
 

@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/AlgoCafe/Knuth-Morris-Pratt-Algorithm/kmp"
+	"github.com/AlgoCafe/knuth-morris-pratt/kmp"
 )
 
 var _ = Describe("Search", func() {
