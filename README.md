@@ -8,7 +8,7 @@ Implementation of the Knuth-Morris-Pratt algorithm or KMP algorithm in GO
 ## Usage
 CLI:
 ```bash
-    go test -v test/*.go # for test
+    go test -v test/
 ```
 
 CODE:
