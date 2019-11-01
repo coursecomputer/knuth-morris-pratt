@@ -1,4 +1,4 @@
-[The Knuth-Morris-Pratt algorithm](https://fr.wikipedia.org/wiki/Algorithme_de_Knuth-Morris-Pratt) is a [String-searching algorithm](https://en.wikipedia.org/wiki/String-searching_algorithm).
+[The Knuth-Morris-Pratt algorithm](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm) is a [String-searching algorithm](https://en.wikipedia.org/wiki/String-searching_algorithm).
 
 It does a pre-processing on the substring by creating a table with the jumps to do to avoid unnecessary research.
 
