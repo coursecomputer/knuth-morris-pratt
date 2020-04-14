@@ -1,5 +1,7 @@
 # knuth-morris-pratt
-Implementation of the Knuth-Morris-Pratt algorithm or KMP algorithm in GO
+[EN] Implementation of the Knuth-Morris-Pratt algorithm or KMP algorithm in GO
+
+[FR] Implémentation de l'algorithme de Knuth-Morris-Pratt ou de l'algorithme KMP en GO
 
 ## Technology
 * [go](https://golang.org/)
@@ -8,12 +10,12 @@ Implementation of the Knuth-Morris-Pratt algorithm or KMP algorithm in GO
 ## Usage
 CLI:
 ```bash
-    go test -v test/
+go test -v test/
 ```
 
 CODE:
 ```go
-import "github.com/AlgoCafe/knuth-morris-pratt/kmp"
+import "github.com/coursecomputer/knuth-morris-pratt/kmp"
 
 var index, length int
 var buffer = []byte("abc abcdab abcdabcdabde")
@@ -24,9 +26,9 @@ index = kmp.Search(buffer, pattern) // 15
 index = kmp.Search(buffer, pattern1) // -1
 ```
 
-## KMP Explications
- - [Explications en francais](doc/FR-EXPLICATION.md)
- - [English Explications](doc/EN-EXPLICATION.md)
+## Explications
+ - [English](documentation/EN-EXPLICATION.md)
+ - [Francais](documentation/FR-EXPLICATION.md)
 
 ## Links
 https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm  
