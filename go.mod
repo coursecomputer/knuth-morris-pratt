@@ -1,4 +1,4 @@
-module github.com/AlgoCafe/knuth-morris-pratt
+module github.com/coursecomputer/knuth-morris-pratt
 
 go 1.13
 
