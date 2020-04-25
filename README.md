@@ -6,14 +6,14 @@ Implementation of the Knuth-Morris-Pratt algorithm or KMP.
 
 Knuth-Morris-Pratt is a substring search algorithm.
 
-<strong>[FR]<strong>  
+<strong>[FR]</strong>  
 Implémentation de l'algorithme de Knuth-Morris-Pratt ou KMP.
 
 Knuth-Morris-Pratt est un algorithme de recherche de sous-chaîne.
 
 ## Explanation
  - [English](documentation/explanation.en.md)
- - [Francais](documentation/explanation.fr.md)
+ - [Français](documentation/explanation.fr.md)
 
 ## Technology
 * [go](https://golang.org/)
