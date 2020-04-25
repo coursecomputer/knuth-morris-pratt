@@ -1,7 +1,19 @@
-# knuth-morris-pratt
-[EN] Implementation of the Knuth-Morris-Pratt algorithm or KMP algorithm in GO
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[FR] Implémentation de l'algorithme de Knuth-Morris-Pratt ou de l'algorithme KMP en GO
+# knuth-morris-pratt
+<strong>[EN]</strong>  
+Implementation of the Knuth-Morris-Pratt algorithm or KMP.
+
+Knuth-Morris-Pratt is a substring search algorithm.
+
+<strong>[FR]<strong>  
+Implémentation de l'algorithme de Knuth-Morris-Pratt ou KMP.
+
+Knuth-Morris-Pratt est un algorithme de recherche de sous-chaîne.
+
+## Explanation
+ - [English](documentation/explanation.en.md)
+ - [Francais](documentation/explanation.fr.md)
 
 ## Technology
 * [go](https://golang.org/)
@@ -25,10 +37,6 @@ var pattern1 = []byte("abcdabdr") // 8
 index = kmp.Search(buffer, pattern) // 15
 index = kmp.Search(buffer, pattern1) // -1
 ```
-
-## Explications
- - [English](documentation/EN-EXPLICATION.md)
- - [Francais](documentation/FR-EXPLICATION.md)
 
 ## Links
 https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm  

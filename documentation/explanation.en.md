@@ -1,3 +1,7 @@
+## Contribution
+You can contribute to the improvement of the documentation, by adding, modifying or deleting items.
+
+## Explanation
 [The Knuth-Morris-Pratt algorithm](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm) is a [String-searching algorithm](https://en.wikipedia.org/wiki/String-searching_algorithm).
 
 It does a pre-processing on the substring by creating a table with the jumps to do to avoid unnecessary research.
