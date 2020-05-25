@@ -8,7 +8,7 @@ It does a pre-processing on the substring by creating a table with the jumps to 
 
 The algorithm is divided into 2 parts, a phase of construction of the jump table and a research phase.
 
-## Building of the jump table [[Table code](../kmp/table.go)]
+## Building of the jump table [[Table code](../source/table.go)]
 For "participate in parachute" (24), the table is `-1 0 0 0 0 0 0 -1 0 2 0 0 0 0 0 -1 0 0 3 0 0 0 0 0 0 (25)`
 
 The first letter is "p", so for each "p", we write `-1` in the table.
@@ -36,7 +36,7 @@ So:
 #### Pseudo code
 ![alt tag](assets/pseudoCodeTable.png)
 
-## Search for the substring [[Search Code](../kmp/search.go)]
+## Search for the substring [[Search Code](../source/search.go)]
 The search is very simple, when it is equal, the index of the string and the index of the substring are incremented.
 
 When it is not equal, the value of the Table is retrieved with the index of the substring, this value becomes the index of the substring.

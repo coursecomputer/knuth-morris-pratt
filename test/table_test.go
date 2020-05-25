@@ -3,8 +3,8 @@ package test
 import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	kmp "github.com/coursecomputer/knuth-morris-pratt/source"
 
-	"github.com/coursecomputer/knuth-morris-pratt/kmp"
 )
 
 var _ = Describe("Table", func() {

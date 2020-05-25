@@ -9,7 +9,7 @@ Il fait un prétraitement sur la sous-chaîne en créant un tableau avec les sau
 
 L'algorithme se découpe en 2 parties, une phase de construction du tableau de saut et une phase de recherche.
 
-## Construction de la table de saut [[Code table](../kmp/table.go)]
+## Construction de la table de saut [[Code table](../source/table.go)]
 Pour "participate in parachute" (24), la table est "-1 0 0 0 0 0 0 -1 0 2 0 0 0 0 0 -1 0 0 3 0 0 0 0 0 0 (25)"
 
 La première lettre est "p", donc a chaque "p", on inscrit `-1` dans la table.
@@ -37,7 +37,7 @@ Alors:
 #### Pseudo code
 ![alt tag](assets/pseudoCodeTable.png)
 
-## Recherche de la sous-chaine [[Code recherche](../kmp/search.go)]
+## Recherche de la sous-chaine [[Code recherche](../source/search.go)]
 La recherche est très simple, quand c'est égal, on incrémente l'index de la chaine et l'index de la sous-chaîne.
 
 Quand ce n'est pas égal, on récupère la valeur du tableau avec l'index de la sous-chaîne, cette valeur devient l'index de la sous-chaîne.

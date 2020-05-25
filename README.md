@@ -27,7 +27,7 @@ go test -v test/
 
 CODE:
 ```go
-import "github.com/coursecomputer/knuth-morris-pratt/kmp"
+import "github.com/coursecomputer/knuth-morris-pratt/source"
 
 var index, length int
 var buffer = []byte("abc abcdab abcdabcdabde")
